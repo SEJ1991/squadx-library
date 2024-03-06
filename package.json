@@ -1,7 +1,7 @@
 {
-  "name": "@squadx-developer/test-library",
+  "name": "@sejin-work/test",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "type": "module",
   "files": [
     "dist"
@@ -26,7 +26,8 @@
     "publish": "npm publish",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "storybook": "VITE_CJS_IGNORE_WARNING=true storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -60,6 +61,11 @@
     "typescript": "^5.2.2",
     "vite": "^5.1.4",
     "vite-plugin-css-injected-by-js": "^3.4.0",
-    "vite-plugin-dts": "^3.7.3"
+    "vite-plugin-dts": "^3.7.3",
+    "semantic-release": "^23.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEJ1991/squadx-library.git"
   }
 }
