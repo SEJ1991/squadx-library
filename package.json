@@ -27,7 +27,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "storybook": "VITE_CJS_IGNORE_WARNING=true storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release --no-ci --dry-run false"
   },
   "dependencies": {
     "react": "^18.2.0",
