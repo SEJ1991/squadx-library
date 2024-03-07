@@ -14,5 +14,5 @@ export function isToday(date: Date): boolean {
 }
 
 export function test() {
-  alert("test!");
+  alert("test123!");
 }
