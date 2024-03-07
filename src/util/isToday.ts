@@ -12,3 +12,7 @@ export function isToday(date: Date): boolean {
     date.getFullYear() === today.getFullYear()
   );
 }
+
+export function test() {
+  alert("test!");
+}
